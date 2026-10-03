@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coworking Clone | Shared Office Spaces in India</title>
+  <meta name="theme-color" content="#f5582d">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="awfice.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="sticky-site-header">
+  <div class="promo-bar small py-1">
+    <div class="promo-track">
+      <span>MEETING ROOM EXCLUSIVE: 50% OFF* on first booking &nbsp;|&nbsp; 25% OFF* on full day booking</span>
+      <span aria-hidden="true">MEETING ROOM EXCLUSIVE: 50% OFF* on first booking &nbsp;|&nbsp; 25% OFF* on full day booking</span>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-xl awfis-navbar">
+  <div class="container-fluid px-lg-4">
+    <a class="navbar-brand brand" href="#hero">awfis</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <div class="navbar-main-row">
+        <ul class="navbar-nav me-lg-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Locations</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#network" data-city="Delhi">Coworking space in Delhi</a></li>
+              <li><a class="dropdown-item" href="#network" data-city="Gurgaon">Coworking space in Gurgaon</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Solutions</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#wpWrap" data-solution="coworking">Coworking</a></li>
+              <li><a class="dropdown-item" href="#wpWrap" data-solution="mobility">Meeting Rooms</a></li>
+              <li><a class="dropdown-item" href="#wpWrap" data-solution="mobility">Day Pass</a></li>
+              <li><a class="dropdown-item" href="#wpWrap" data-solution="mobility">Business Address Plan</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Enterprise</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#wpWrap" data-solution="transform">Transform</a></li>
+              <li><a class="dropdown-item" href="#wpWrap" data-solution="enterprise">Managed Office</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#wpWrap" data-solution="mobility">Meeting Rooms <span class="badge offer">OFFERS</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="#wpWrap" data-solution="mobility">Day Pass</a></li>
+          <li class="nav-item"><a class="nav-link" href="#wpWrap" data-solution="mobility">Virtual Office</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq" data-solution="faq">Investor Relations</a></li>
+        </ul>
+
+        <div class="d-flex align-items-center gap-2 auth-area">
+          <div id="guestLinks" class="d-flex align-items-center gap-2">
+            <a href="#" class="nav-link px-1" data-auth="login">Log in</a><span class="text-muted">|</span>
+            <a href="#" class="nav-link px-1" data-auth="signup">Sign up</a>
+          </div>
+          <div id="userMenu" class="dropdown d-none">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+              <span class="avatar" id="userInitial">U</span> <span id="userName">User</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#find-space">Dashboard</a></li>
+              <li><a class="dropdown-item" href="#faq">Profile</a></li>
+              <li><a class="dropdown-item" href="#" id="logoutBtn">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-cta-row">
+        <a href="tel:18602586633" class="tour-link">
+          <svg aria-hidden="true" viewBox="0 0 16 16" focusable="false"><path d="M3.7 1.5 6 1l1.2 3.1-1.5 1.2a10 10 0 0 0 5 5l1.2-1.5L15 10l-.5 2.3c-.2 1-1.1 1.7-2.1 1.6A12 12 0 0 1 2.1 3.6c-.1-1 .6-1.9 1.6-2.1Z"/></svg>
+          <span>Book a Tour <strong>1860 258 6633</strong></span>
+        </a>
+        <a class="app-download" href="https://play.google.com/store/search?q=awfis&amp;c=apps" target="_blank" rel="noopener noreferrer">DOWNLOAD APP</a>
+      </div>
+    </div>
+  </div>
+  </nav>
+</div>
+
+<header id="hero" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image:url(https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1920&q=85)">
+      <div class="hero-overlay"><div class="container">
+        <span class="tag">Launching</span>
+        <h1>Elite Enterprise<br>Office Spaces</h1>
+        <p>At Prestige Trade Centre, Aerocity, Delhi</p>
+        <a href="#network" data-city="Delhi" class="btn btn-brand">Visit Now</a>
+      </div></div>
+    </div>
+    <div class="carousel-item" style="background-image:url(https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1920&q=85)">
+      <div class="hero-overlay"><div class="container">
+        <h1>India's Largest Integrated<br>Workspace Solutions Platform</h1>
+        <div class="stats">
+          <div><b>18</b> Cities</div><div><b>250+</b> Centres</div><div><b>1.75L+</b> Seats</div>
+        </div>
+      </div></div>
+    </div>
+  </div>
+  <aside class="welcome-card" aria-labelledby="welcomeTitle">
+    <div class="welcome-img" style="background-image:url(https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=85)">
+      <h2 id="welcomeTitle">Your workspace awaits</h2>
+    </div>
+    <form id="welcomeForm" class="welcome-body" novalidate>
+      <div class="phone-field">
+        <span>+91</span>
+        <input type="tel" id="wPhone" inputmode="numeric" maxlength="10" placeholder="Enter your phone number" autocomplete="tel-national" aria-label="Phone number">
+      </div>
+      <div id="wMsg" class="small mt-2" role="status"></div>
+      <button type="submit" id="wContinue" class="welcome-btn" disabled>Continue</button>
+      <label class="welcome-consent">
+        <input type="checkbox" id="wConsent" checked>
+        <span>I authorize to use my data for autofill, marketing &amp; personalization per the Privacy Policy.
+          <a href="#faq">Read details</a></span>
+      </label>
+    </form>
+  </aside>
+  <button class="carousel-control-prev" data-bs-target="#hero" data-bs-slide="prev" aria-label="Previous"><span class="carousel-control-prev-icon"></span></button>
+  <button class="carousel-control-next" data-bs-target="#hero" data-bs-slide="next" aria-label="Next"><span class="carousel-control-next-icon"></span></button>
+</header>
+
+<section class="container-fluid px-3 px-lg-5 py-5">
+  <h2 class="section-title workspace-section-title">Flexible Shared &amp; Coworking Office Spaces Across India</h2>
+  <div class="wp-wrap" id="wpWrap">
+    <article class="wp-panel" data-key="coworking" data-imgs="504384308090-c894fdcc538d,568992687947-868a62a9f521,497366216548-37526070297c,522071820081-009f0129c71c" tabindex="0" aria-expanded="false">
+      <div class="wp-cover"><span class="wp-vtitle">Coworking</span></div>
+      <div class="wp-open">
+        <div class="wp-text">
+          <h3>Coworking</h3>
+          <ul>
+            <li>Ready-to-move desks and cabins you can take by the day, week, month or year.</li>
+            <li>Plans that suit freelancers, startups, growing teams and larger corporates.</li>
+            <li>Book online, through the mobile app, or with help from a community manager.</li>
+          </ul>
+          <div class="wp-actions">
+            <a href="tel:18602586633" class="wp-btn wp-btn-outline">CALL NOW</a>
+            <a href="#find-space" class="wp-btn wp-btn-solid">EXPLORE</a>
+          </div>
+        </div>
+        <div class="wp-slides" aria-label="Coworking photos"></div>
+      </div>
+    </article>
+    <article class="wp-panel" data-key="enterprise" data-imgs="497215728101-856f4ea42174,600880292203-757bb62b4baf,556761175-5973dc0f32e7,524758631624-e2822e304c36" tabindex="0" aria-expanded="false">
+      <div class="wp-cover"><span class="wp-vtitle">Enterprise</span></div>
+      <div class="wp-open">
+        <div class="wp-text">
+          <h3>Enterprise</h3>
+          <ul>
+            <li>Custom-built offices designed around how your company works.</li>
+            <li>Design, construction and day-to-day management handled under one roof.</li>
+            <li>A move-in-ready workspace that matches your brand and headcount.</li>
+          </ul>
+          <div class="wp-actions">
+            <a href="tel:18602586633" class="wp-btn wp-btn-outline">CALL NOW</a>
+            <a href="#find-space" class="wp-btn wp-btn-solid">EXPLORE</a>
+          </div>
+        </div>
+        <div class="wp-slides" aria-label="Enterprise photos"></div>
+      </div>
+    </article>
+    <article class="wp-panel" data-key="mobility" data-imgs="519389950473-47ba0277781c,517502884422-41eaead166d4,462826303086-329426d1aef5,497366811353-6870744d04b2" tabindex="0" aria-expanded="false">
+      <div class="wp-cover"><span class="wp-vtitle">Mobility</span></div>
+      <div class="wp-open">
+        <div class="wp-text">
+          <h3>Mobility</h3>
+          <ul>
+            <li>Meeting rooms, day passes and virtual offices whenever you need them.</li>
+            <li>Bundles of meeting-room and day-pass credits that cost less than booking one by one.</li>
+            <li>Built for hybrid teams and people who work on the move.</li>
+          </ul>
+          <div class="wp-actions">
+            <a href="tel:18602586633" class="wp-btn wp-btn-outline">CALL NOW</a>
+            <a href="#find-space" class="wp-btn wp-btn-solid">EXPLORE</a>
+          </div>
+        </div>
+        <div class="wp-slides" aria-label="Mobility photos"></div>
+      </div>
+    </article>
+    <article class="wp-panel" data-key="transform" data-imgs="604328698692-f76ea9498e76,542744173-8e7e53415bb0,551434678-e076c223a692,571624436279-b272aff752b5" tabindex="0" aria-expanded="false">
+      <div class="wp-cover"><span class="wp-vtitle">Awfis Transform</span></div>
+      <div class="wp-open">
+        <div class="wp-text">
+          <h3>Awfis Transform</h3>
+          <ul>
+            <li>Design-and-build services for new centres and for your own office.</li>
+            <li>Space planning that accounts for technology, work zones and how people move around.</li>
+            <li>Workspaces focused on accessibility, flexibility and efficiency.</li>
+          </ul>
+          <div class="wp-actions">
+            <a href="tel:18602586633" class="wp-btn wp-btn-outline">CALL NOW</a>
+            <a href="#find-space" class="wp-btn wp-btn-solid">EXPLORE</a>
+          </div>
+        </div>
+        <div class="wp-slides" aria-label="Awfis Transform photos"></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="find-space-section py-5" id="find-space">
+  <div class="container">
+    <h2 class="find-space-title">Find Your Space</h2>
+    <form class="find-space-form" action="#find-space" method="get">
+      <div class="find-space-field">
+        <select class="form-select" id="spaceCity" name="city" aria-label="City" required>
+          <option value="" selected disabled>Select city</option>
+          <option>Mumbai</option>
+          <option>Bengaluru</option>
+          <option>Hyderabad</option>
+          <option>Pune</option>
+          <option>Kolkata</option>
+          <option>New Delhi</option>
+          <option>Noida</option>
+          <option>Gurgaon</option>
+          <option>Chennai</option>
+          <option>Ahmedabad</option>
+          <option>Kochi</option>
+          <option>Indore</option>
+          <option>Bhubaneswar</option>
+        </select>
+      </div>
+      <div class="find-space-field">
+        <select class="form-select" id="spaceLocation" name="location" aria-label="Location" required>
+          <option value="" selected disabled>Select location</option>
+          <option>Old Pallavaram</option>
+          <option>Navi Mumbai</option>
+          <option>Kothrud</option>
+          <option>Aerocity</option>
+          <option>Sahibzada Ajit Singh Nagar</option>
+          <option>Shivajinagar</option>
+          <option>Kasarwadi</option>
+          <option>Ashram Road</option>
+          <option>Nagevara</option>
+          <option>Sector 20</option>
+          <option>Electronic City</option>
+          <option>Sector 142</option>
+          <option>Wakad</option>
+        </select>
+      </div>
+      <div class="find-space-field">
+        <select class="form-select" id="spaceType" name="type" aria-label="Type" required>
+          <option value="" selected disabled>Type</option>
+          <option>Fixed Desks</option>
+          <option>Cabins</option>
+          <option>Meeting Rooms</option>
+          <option>Flexi Des</option>
+        </select>
+      </div>
+      <button class="btn btn-brand find-space-submit" type="submit">Search</button>
+    </form>
+    <div id="searchResult" class="search-result mt-3" role="status"></div>
+  </div>
+</section>
+
+<section class="network-section py-5" id="network">
+  <div class="container">
+    <h2 class="section-title workspace-section-title">Our Growing Networks</h2>
+    <div class="network-grid">
+      <article class="net-tile t-mumbai tall" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80)"></span>
+        <span class="net-name">Mumbai</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile t-noida" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?auto=format&fit=crop&w=900&q=80)"></span>
+        <span class="net-name">Noida</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile t-kolkata" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=900&q=80)"></span>
+        <span class="net-name">Kolkata</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile t-gurgaon tall" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=900&q=80)"></span>
+        <span class="net-name">Gurgaon</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#network" data-city="Gurgaon">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile t-hyderabad" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1600508774634-4e11d34730e2?auto=format&fit=crop&w=900&q=80)"></span>
+        <span class="net-name">Hyderabad</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile t-chandigarh" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80)"></span>
+        <span class="net-name">Chandigarh</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+    </div>
+    <div class="network-grid network-more-grid">
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80);background-position:35% center"></span>
+        <span class="net-name">Bhubaneshwar</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80);background-position:70% center"></span>
+        <span class="net-name">Kochi</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80);background-position:20% center"></span>
+        <span class="net-name">Nagpur</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80);background-position:80% center"></span>
+        <span class="net-name">Ahemadabad</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=900&q=80);background-position:25% center"></span>
+        <span class="net-name">Jaipur</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80);background-position:75% center"></span>
+        <span class="net-name">Delhi</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#network" data-city="Delhi">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80);background-position:65% center"></span>
+        <span class="net-name">Pune</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80);background-position:30% center"></span>
+        <span class="net-name">Banglore</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80);background-position:70% center"></span>
+        <span class="net-name">Chennai</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+      <article class="net-tile" tabindex="0">
+        <span class="net-img" style="background-image:url(https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80);background-position:80% center"></span>
+        <span class="net-name">Indore</span>
+        <span class="net-actions">
+          <a href="tel:18602586633">Request a visit</a>
+          <a href="#find-space" data-book="Meeting Room">Book your meeting room</a>
+          <a href="#find-space" data-book="Workspace">Book your space</a>
+        </span>
+      </article>
+    </div>
+    <div class="network-cta">
+      <a class="btn btn-brand" href="tel:18602586633">Request a Visit</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about-section py-5">
+  <div class="container text-center">
+    <h2 class="section-title">About Awfis</h2>
+    <p class="mx-auto" style="max-width:820px">Awfis provides flexible coworking, enterprise workspace and mobility solutions designed for professionals, startups and businesses across India.</p>
+    <div class="row justify-content-center g-4 mt-3">
+      <div class="col-6 col-md-3"><strong class="d-block fs-3">18+</strong><span>Cities</span></div>
+      <div class="col-6 col-md-3"><strong class="d-block fs-3">250+</strong><span>Centres</span></div>
+      <div class="col-6 col-md-3"><strong class="d-block fs-3">1.75L+</strong><span>Seats</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="faq-section py-5">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-grid" id="faqList">
+      <div class="faq-column">
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">What is a coworking space?</button>
+          </h3>
+          <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqList">
+            <div class="accordion-body">A coworking space is a communal working environment that allows individuals from different organizations, start-ups and also freelancers to work together under one roof. Coworking spaces are popular all over cities, and with a bit of a difference, in India, generally sharing space with your own desk, private cabins, and a collaborative culture. On top of this typically is Wi-Fi, printers, lounges and other benefits also.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">What are the benefits of shared office spaces?</button>
+          </h3>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqList">
+            <div class="accordion-body">A shared office space allows employers to reduce overhead costs, network, foster productivity. Businesses can operate at premium addresses, take advantage of modern infrastructure, attend community events, and everything in between without the normal inflexibility with an office rental, making coworking office spaces an intelligent approach for the evolving agile teams of today.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">What are the different types of mobility solutions offered by Awfis?</button>
+          </h3>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqList">
+            <div class="accordion-body">Awfis offers smart mobility solutions like day passes, flexi desks, meeting rooms, and virtual offices across its coworking spaces in India. These options let you work where, when, and how you want—ideal for hybrid teams and professionals seeking flexible coworking office setups.</div>
+          </div>
+        </div>
+      </div>
+      <div class="faq-column">
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">Where are Awfis coworking spaces located?</button>
+          </h3>
+          <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqList">
+            <div class="accordion-body">You’ll find Awfis <strong>coworking spaces in India</strong> across 18+ cities including Mumbai, Delhi, Bengaluru, Hyderabad, Pune, and Kolkata. Whether you’re looking for a central <strong>coworking space in India</strong> or something closer to home, Awfis has a pan-India presence to match your needs.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">Can I book a workspace for just a day or a few hours?</button>
+          </h3>
+          <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqList">
+            <div class="accordion-body">Yes, Awfis lets you book <strong>coworking office spaces</strong> by the hour or day. Perfect for freelancers, remote workers, or business travellers who need a professional setup without long-term commitment—all in a flexible, on-demand <strong>coworking office</strong> mode.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">Do you offer help with space planning and custom furniture design?</button>
+          </h3>
+          <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqList">
+            <div class="accordion-body">Absolutely! Awfis provides end-to-end workspace solutions—from layout planning to ergonomic furniture customisation. Whether you’re upgrading a <strong>shared office space</strong> or setting up a new <strong>coworking space</strong>, their experts ensure every detail supports comfort, aesthetics, and productivity.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer pt-5 pb-3">
+  <div class="container">
+    <div class="row g-4 footer-content">
+      <div class="col-6 col-md-3">
+        <h2>About</h2>
+        <a href="#about">About Awfis</a>
+        <a href="https://awfis.keka.com/" target="_blank" rel="noopener noreferrer">Careers <span class="hiring-badge">WE ARE HIRING</span></a>
+        <a href="#faq">Press</a>
+        <a href="#faq">Legal</a>
+        <a href="#faq">Privacy Policy</a>
+        <a href="#faq">Blog</a>
+        <a href="#faq">Workplace Insights</a>
+      </div>
+      <div class="col-6 col-md-3">
+        <h2>Products</h2>
+        <a href="#wpWrap">Space Solutions</a>
+        <a class="footer-sub-link" href="#wpWrap" data-solution="coworking">Coworking</a>
+        <a class="footer-sub-link" href="#wpWrap" data-solution="enterprise">Enterprise</a>
+        <a class="footer-sub-link" href="#wpWrap" data-solution="mobility">Mobility</a>
+        <a class="footer-sub-link" href="#find-space" data-book="Meeting Room">Meeting Rooms</a>
+        <a class="footer-sub-link" href="#find-space" data-book="Day Pass">Day Pass</a>
+        <a class="footer-sub-link" href="#find-space" data-book="Business Address Plan">Business Address Plan</a>
+        <a class="footer-sub-link" href="#find-space" data-book="GST Registration Plan">GST Registration Plan</a>
+        <a class="footer-sub-link" href="#find-space" data-book="Company Registration Plan">Company Registration Plan</a>
+        <a class="footer-sub-link" href="#find-space" data-book="Mobility Bundle">Mobility Bundle</a>
+        <a href="#wpWrap" data-solution="transform">Awfis Transform</a>
+        <a href="#hero">Elite</a>
+      </div>
+      <div class="col-6 col-md-2">
+        <h2>Contact</h2>
+        <a href="mailto:info@awfis.com">Contact us</a>
+        <a href="tel:18602586633">Request A Visit</a>
+        <a href="#find-space">Find Your Space</a>
+        <a href="#faq">Investor Relations</a>
+        <a href="#network">Sitemap</a>
+      </div>
+      <div class="col-6 col-md-4 footer-connect">
+        <div class="footer-socials" aria-label="Social media">
+          <a class="footer-social-facebook" href="https://www.facebook.com/awfis/" aria-label="Facebook">f</a>
+          <a class="footer-social-instagram" href="https://www.instagram.com/awfis/" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle class="instagram-flash" cx="17.8" cy="6.5" r="1"></circle></svg>
+          </a>
+          <a class="footer-social-x" href="https://x.com/awfis" aria-label="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h3.8l10.2 16h-3.8L5 4Zm0 16 6.6-7.3m1.8-2L19 4"></path></svg>
+          </a>
+          <a class="footer-social-linkedin" href="https://www.linkedin.com/company/awfis/" aria-label="LinkedIn">in</a>
+        </div>
+        <div class="footer-contact-line">
+          <a href="mailto:info@awfis.com"><span aria-hidden="true">✉</span> info@awfis.com</a>
+          <a href="tel:18602586633"><span aria-hidden="true">☎</span> 1860 258 6633</a>
+        </div>
+        <p class="footer-address"><span aria-hidden="true">⌖</span> Awfis Space Solutions Limited, C-28/29, Kissan Bhawan, Qutab Institutional Area, New Delhi - 110016</p>
+        <div class="footer-apps">
+          <span>Download Awfis App</span>
+          <a href="https://play.google.com/store/search?q=awfis&amp;c=apps" target="_blank" rel="noopener noreferrer" aria-label="Find Awfis on Google Play"><span aria-hidden="true">▶</span> Google Play</a>
+          <a href="https://apps.apple.com/in/search?term=awfis" target="_blank" rel="noopener noreferrer" aria-label="Find Awfis on the App Store"><span aria-hidden="true">●</span> App Store</a>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <p class="small mb-0 text-center footer-note">Learning project. Not affiliated with the original brand.</p>
+  </div>
+</footer>
+
+<div class="modal fade" id="bookingModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered"><div class="modal-content p-3">
+    <div class="modal-header border-0">
+      <div><h5 class="modal-title">Enquire Now</h5><div id="bookingSubtitle" class="small text-muted"></div></div>
+      <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <form id="bookingForm" novalidate>
+        <input type="hidden" id="bookingInterest">
+        <input id="bName" class="form-control mb-2" placeholder="Full name" required>
+        <input type="email" id="bEmail" class="form-control mb-2" placeholder="Email ID" required>
+        <input type="tel" id="bPhone" class="form-control mb-2" placeholder="Mobile number" maxlength="10" required>
+        <select id="bCity" class="form-select mb-3" required><option value="">Select city</option><option>Delhi</option><option>Gurgaon</option><option>Bengaluru</option><option>Mumbai</option><option>Hyderabad</option><option>Pune</option><option>Chennai</option><option>Other</option></select>
+        <div id="bookingMsg" class="small mb-2"></div>
+        <button class="btn btn-brand w-100" type="submit">Submit Request</button>
+      </form>
+    </div>
+  </div></div>
+</div>
+
+<div class="modal fade" id="authModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered"><div class="modal-content p-2">
+    <div class="modal-header border-0 pb-0">
+      <ul class="nav nav-tabs w-100 border-0" id="authTabs">
+        <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#loginPane">Login</button></li>
+        <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#signupPane">Sign up</button></li>
+      </ul>
+      <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body tab-content">
+      <form id="loginPane" class="tab-pane fade show active" novalidate>
+        <div id="loginErr" class="text-danger small mb-2"></div>
+        <input type="email" id="lEmail" class="form-control mb-2" placeholder="Email ID" required>
+        <div class="invalid-feedback mb-2">Invalid email ID</div>
+        <input type="password" id="lPass" class="form-control mb-3" placeholder="Password" required>
+        <div class="invalid-feedback mb-2">Password is required field</div>
+        <button class="btn btn-brand w-100">Login</button>
+      </form>
+      <form id="signupPane" class="tab-pane fade" novalidate>
+        <div id="signupErr" class="text-danger small mb-2"></div>
+        <input id="sName" class="form-control mb-2" placeholder="Full name" required>
+        <input type="email" id="sEmail" class="form-control mb-2" placeholder="Email ID" required>
+        <input type="password" id="sPass" class="form-control mb-2" placeholder="Password (min 6 characters)" required minlength="6">
+        <div class="form-check mb-3"><input class="form-check-input" type="checkbox" id="sAgree">
+          <label class="form-check-label small" for="sAgree">I agree to the User Agreement</label></div>
+        <button class="btn btn-brand w-100">Register</button>
+      </form>
+    </div>
+  </div></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="awfice.js"></script>
+</body>
+</html>
